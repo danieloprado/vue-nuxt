@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "Sabão em Pó",
+    "sku": "1",
+    "category_id": 1,
+    "price": "50.00",
+    "images": null,
+    "category": { "id": 1, "name": "Limepeza" },
+    "classifications": [],
+    "promotions": []
+  },
+  {
+    "id": 2,
+    "name": "Alimento SUPRA SOY 300g Light",
+    "sku": "1",
+    "category_id": 1,
+    "price": "50.00",
+    "images": null,
+    "category": { "id": 1, "name": "Limepeza" },
+    "classifications": [],
+    "promotions": []
+  },
+  {
+    "id": 3,
+    "name": "Sabão em Pó",
+    "sku": "1",
+    "category_id": 1,
+    "price": "50.00",
+    "images": null,
+    "category": { "id": 1, "name": "Limepeza" },
+    "classifications": [],
+    "promotions": []
+  },
+  {
+    "id": 4,
+    "name": "Sabão em Pó",
+    "sku": "1",
+    "category_id": 1,
+    "price": "50.00",
+    "images": null,
+    "category": { "id": 1, "name": "Limepeza" },
+    "classifications": [],
+    "promotions": []
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "id": 1,
+  "category_id": 1,
+  "name": "Sab\u00e3o em P\u00f3",
+  "price": "50.00",
+  "stock": 200,
+  "brand": "Omo",
+  "tags": "limpeza,sab\u00e3o,m\u00e3e",
+  "width": "0.00",
+  "height": "0.00",
+  "length": "0.00",
+  "weight": "0.00",
+  "subscribable": 1,
+  "available": 1,
+  "recent": 1,
+  "featured": 0,
+  "description": "Apenas um sab\u00e3o em p\u00f3!",
+  "long_description":
+    "<p></p><p style=\"font-size: 16px;\">Mussum Ipsum, <b>cacilds</b> vidis litro abertis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Detraxit <u>consequat</u> et quo num tendi nada. In elementis m\u00e9 pra quem \u00e9 amistosis quis leo. Viva Forevis aptent taciti sociosqu ad litora torquent.</p><p style=\"font-size: 16px;\">Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget. Per aumento de cachacis, eu reclamis. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio.</p><p></p>",
+  "same_order": [],
+  "category": { "id": 2 },
+  "images": null,
+  "promotions": [],
+  "classifications": [],
+  "relations": []
+}

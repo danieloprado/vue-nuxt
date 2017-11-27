@@ -1,0 +1,10 @@
+version: '2'
+services:
+
+  web:
+    build: ./docker/dev
+    ports:
+      - "4001:4001"
+      - "4002:4002"
+    volumes:
+      - .:/src

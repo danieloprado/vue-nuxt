@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "es2015", "es2015.promise"],
+    "jsx": "preserve",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noImplicitAny": true,
+    "strictNullChecks": false,
+    "noEmitOnError": false,
+    "noUnusedLocals": true,
+    "removeComments": true,
+    "alwaysStrict": true,
+    "allowJs": true,
+    "importHelpers": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "~/assets/*": ["./assets/*"],
+      "~/components/*": ["./components/*"],
+      "~/middleware/*": ["./middleware/*"],
+      "~/modules/*": ["./modules/*"],
+      "~/pages/*": ["./pages/*"],
+      "~/plugins/*": ["./plugins/*"],
+      "~/static/*": ["./static/*"],
+      "~/store": ["./.nuxt/store"],
+      "~/router": ["./.nuxt/router"]
+    }
+  }
+}

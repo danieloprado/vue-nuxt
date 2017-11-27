@@ -1,0 +1,46 @@
+{
+  "total": 1,
+  "per_page": "20",
+  "current_page": 1,
+  "last_page": 1,
+  "next_page_url": null,
+  "prev_page_url": null,
+  "from": 1,
+  "to": 1,
+  "data": [
+    {
+      "id": 1,
+      "name": "Sabão em Pó",
+      "sku": "1",
+      "category_id": 1,
+      "price": "50.00",
+      "available": 0,
+      "images": null,
+      "category": { "id": 1, "name": "Limepeza" },
+      "classifications": [],
+      "promotions": []
+    },
+    {
+      "id": 2,
+      "name": "Sabão em Pó",
+      "sku": "1",
+      "category_id": 1,
+      "price": "50.00",
+      "images": null,
+      "category": { "id": 1, "name": "Limepeza" },
+      "classifications": [],
+      "promotions": []
+    },
+    {
+      "id": 3,
+      "name": "Sabão em Pó",
+      "sku": "1",
+      "category_id": 1,
+      "price": "50.00",
+      "images": null,
+      "category": { "id": 1, "name": "Limepeza" },
+      "classifications": [],
+      "promotions": []
+    }
+  ]
+}

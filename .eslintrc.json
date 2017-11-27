@@ -1,0 +1,36 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/recommended"
+  ],
+  "plugins": [
+    "vue"
+  ],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "sourceType": "module",
+    "ecmaVersion": 2017,
+    "ecmaFeatures": {
+      "classes": true,
+      "jsx": true
+    }
+  },
+  "globals": {
+    "$": true,
+    "FB": true
+  },
+  "rules": {
+    "no-console": "off",
+    "quotes": ["error", "single", { "avoidEscape": true }],
+    "eqeqeq": "error",
+    "max-depth": ["error", { "max": 2 }],
+    "semi": "error",
+    "no-var": "error"
+  }
+}

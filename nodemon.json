@@ -1,0 +1,7 @@
+{
+  "exec": "node mocks/index.js",
+  "watch": ["mocks"],
+  "ext": "js",
+  "delay": 2,
+  "stdout": true
+}

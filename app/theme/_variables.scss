@@ -1,0 +1,22 @@
+$red: #a94542;
+$hr: #d2d2d2;
+$font-color: #695f63;
+$black: #242021;
+$primary-color: #0586c7;
+$primary-color-dark: darken($primary-color, 10%);
+$primary-text-color: #0070ac;
+$secondary-color: #0070ac;
+$accent-color: $black;
+$facebook-color: #3b5998;
+$instagram-color: #ae39a1;
+$body-background: #f6f6f6;
+$box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125);
+//--
+$category-links-background: lighten($primary-color, 5%);
+$category-links-color: white;
+//--
+$top-links-background: white;
+$bottom-links-background: $primary-color;
+$bottom-links-color: white;
+//--
+$product-carousel-nav-background: $primary-text-color;

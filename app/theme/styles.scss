@@ -1,0 +1,164 @@
+@import './index.scss';
+@import './_utilities.scss';
+@import './_bootstrap.scss';
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  padding-right: 0 !important;
+}
+
+.pre {
+  white-space: pre-line;
+}
+
+.slide-fade-enter-active {
+  transition: all 0.3s ease;
+}
+
+.slide-fade-leave-active {
+  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to {
+  transform: translateY(10px);
+  opacity: 0;
+}
+
+.loader .animated {
+  animation-duration: 0.5s;
+}
+
+.loader .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1149;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: progress;
+}
+
+.loader .overlay.out {
+  animation-delay: 0.2s;
+}
+
+.loader .content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1150;
+  margin: auto;
+  width: 200px;
+  height: 140px;
+  text-align: center;
+  background: $primary-color;
+  color: #444;
+  padding: 20px 40px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+.loader p {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.loader img {
+  height: 60px;
+  width: 60px;
+}
+
+.panel {
+  border: none;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125);
+  margin-bottom: 30px;
+
+  .panel-heading {
+    background-color: lighten($primary-color, 5%);
+    color: white;
+    text-align: center;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125);
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.125);
+    letter-spacing: 0.5px;
+  }
+}
+
+.body-content {
+  color: $font-color;
+  background: $body-background;
+}
+
+.main-content:before {
+  content: '';
+  display: block;
+  height: 110px;
+  background: $primary-color;
+
+  @include media-min-breakpoints(xs) {
+    height: 100px;
+  }
+}
+
+hr {
+  border-color: $hr;
+}
+
+hr.divider {
+  border-top: 2px dashed #ccc;
+}
+
+.toast-top-center {
+  top: 20px;
+}
+
+#toast-container > .toast-info {
+  background-color: $black;
+  background-image: none !important;
+  padding: 15px;
+
+  .product-toast {
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    .img {
+      margin: -10px 10px -10px -10px;
+      float: left;
+      width: 65px;
+      height: 65px;
+      border-radius: 3px;
+      text-align: center;
+      overflow: hidden;
+      line-height: 65px;
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        vertical-align: middle;
+      }
+    }
+
+    strong {
+      display: inline-block;
+      max-width: 180px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      vertical-align: bottom;
+    }
+  }
+}
+
+.validation-error {
+  color: $red;
+}

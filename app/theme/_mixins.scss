@@ -1,0 +1,40 @@
+/* Medias */
+
+$breakpoints: ( xs: 479px, sm: 767px, md: 991px, lg: 1199px);
+$breakpoints-min: ( xs: 480px, sm: 768px, md: 992px, lg: 1200px);
+//-
+@mixin media-min-breakpoints($size) {
+  @include media-min(map-get($breakpoints-min, $size)) {
+    @content;
+  }
+}
+
+@mixin media-max-breakpoints($size) {
+  @include media-max(map-get($breakpoints, $size)) {
+    @content;
+  }
+}
+
+@mixin media-min-max-breakpoints($sizeMin, $sizeMax) {
+  @include media-min-max(map-get($breakpoints-min, $sizeMin), map-get($breakpoints, $sizeMax)) {
+    @content;
+  }
+}
+
+@mixin media-min($size) {
+  @media screen and (min-width: $size) {
+    @content;
+  }
+}
+
+@mixin media-max($size) {
+  @media screen and (max-width: $size) {
+    @content;
+  }
+}
+
+@mixin media-min-max($min, $max) {
+  @media screen and (min-width: $min) and (max-width: $max) {
+    @content;
+  }
+}

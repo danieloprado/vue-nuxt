@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "name": "Bazar",
+    "featured": true,
+    "image": {
+      "id": "48a38f97efd058f0a0ac6067d693c2ba",
+      "width": 200,
+      "height": 200,
+      "url": "/meat.png"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Higiene",
+    "featured": true,
+    "image": {
+      "id": "48a38f97efd058f0a0ac6067d693c2ba",
+      "width": 200,
+      "height": 200,
+      "url": "/meat.png"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Mercearia",
+    "featured": true,
+    "image": {
+      "id": "48a38f97efd058f0a0ac6067d693c2ba",
+      "width": 200,
+      "height": 200,
+      "url": "/meat.png"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Bebidas",
+    "featured": true,
+    "image": {
+      "id": "48a38f97efd058f0a0ac6067d693c2ba",
+      "width": 200,
+      "height": 200,
+      "url": "/meat.png"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Confeitaria",
+    "featured": true,
+    "image": {
+      "id": "48a38f97efd058f0a0ac6067d693c2ba",
+      "width": 200,
+      "height": 200,
+      "url": "/meat.png"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Açougue",
+    "featured": true,
+    "image": {
+      "id": "48a38f97efd058f0a0ac6067d693c2ba",
+      "width": 200,
+      "height": 200,
+      "url": "/meat.png"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Padaria",
+    "featured": true,
+    "image": {
+      "id": "48a38f97efd058f0a0ac6067d693c2ba",
+      "width": 200,
+      "height": 200,
+      "url": "/meat.png"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Importados",
+    "image": {
+      "id": "48a38f97efd058f0a0ac6067d693c2ba",
+      "width": 200,
+      "height": 200,
+      "url": "/meat.png"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Outros",
+    "parentId": 1,
+    "image": {
+      "id": "48a38f97efd058f0a0ac6067d693c2ba",
+      "width": 200,
+      "height": 200,
+      "url": "/meat.png"
+    }
+  }
+]
